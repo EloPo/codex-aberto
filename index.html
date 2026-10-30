@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex Aberto — biblioteca livre de tecnologia</title>
+  <meta name="description" content="Biblioteca digital open source que reúne livros, artigos científicos e dossiês gratuitos de tecnologia, organizados por área e ramificação.">
+  <meta name="theme-color" content="#7A1230">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="fachada">
+    <div class="fachada__topo">
+      <a class="marca" href="#/acervo" aria-label="Codex Aberto, início">
+        <svg class="marca__selo" viewBox="0 0 40 40" aria-hidden="true"><use href="#selo"/></svg>
+        <span>Codex Aberto</span>
+      </a>
+      <nav class="balcao" aria-label="Seções da biblioteca">
+        <a href="#/acervo" data-rota="acervo">Acervo</a>
+        <a href="#/artigos" data-rota="artigos">Artigos e dossiês</a>
+        <a href="#/estante" data-rota="estante">Minha estante <span class="contador" id="contador-estante" hidden></span></a>
+        <a href="#/sobre" data-rota="sobre">Sobre e colaboração</a>
+      </nav>
+    </div>
+
+    <div class="fachada__corpo">
+      <h1 class="titulo-casa">Uma biblioteca aberta para quem estuda tecnologia</h1>
+      <p class="fachada__texto" id="resumo-acervo">Livros, apostilas, artigos científicos e dossiês gratuitos, catalogados por área e ramificação. Leia no navegador ou baixe.</p>
+
+      <form class="consulta" id="form-busca" role="search">
+        <label class="visualmente-oculto" for="busca">Consultar o catálogo</label>
+        <svg class="consulta__lupa" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+        <input id="busca" name="q" type="search" autocomplete="off" placeholder="Título, autor ou assunto — ex.: redes neurais, Rust, Kubernetes">
+        <button type="submit">Consultar</button>
+      </form>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <!-- ACERVO -->
+    <section class="vista" data-vista="acervo" aria-labelledby="t-arquivo">
+      <div class="arquivo">
+        <div class="arquivo__cabeca">
+          <h2 id="t-arquivo">Fichário por área</h2>
+          <p>Abra uma gaveta para ver as ramificações daquela área.</p>
+        </div>
+        <div class="gaveteiro" id="gaveteiro" role="list"></div>
+      </div>
+
+      <div class="sala">
+        <aside class="indice" id="painel-filtros" aria-label="Filtros do acervo">
+          <div class="indice__bloco">
+            <h3>Ramificação</h3>
+            <p class="indice__dica" id="dica-ramo">Escolha uma área no fichário para listar as ramificações.</p>
+            <ul class="ramos" id="lista-ramos"></ul>
+          </div>
+          <div class="indice__bloco">
+            <label for="filtro-idioma"><h3>Idioma</h3></label>
+            <select id="filtro-idioma"><option value="">Todos os idiomas</option></select>
+          </div>
+          <div class="indice__bloco">
+            <h3>Formato</h3>
+            <div class="chips" id="filtro-formato"></div>
+          </div>
+          <div class="indice__bloco">
+            <label class="caixa"><input type="checkbox" id="filtro-cadastro"> Esconder itens que pedem cadastro</label>
+          </div>
+        </aside>
+
+        <div class="estantes">
+          <div class="estantes__barra">
+            <p class="estantes__resultado" id="resultado" aria-live="polite"></p>
+            <div class="estantes__acoes">
+              <button class="botao-filtros" type="button" id="abrir-filtros" aria-controls="painel-filtros" aria-expanded="false">Filtros</button>
+              <label for="ordem" class="visualmente-oculto">Ordenar</label>
+              <select id="ordem">
+                <option value="titulo">Título (A–Z)</option>
+                <option value="autor">Autor (A–Z)</option>
+                <option value="pdf">PDF primeiro</option>
+                <option value="area">Número de chamada</option>
+              </select>
+            </div>
+          </div>
+          <div class="filtros-ativos" id="filtros-ativos"></div>
+          <ol class="fichas" id="fichas"></ol>
+          <button class="mais" type="button" id="mais" hidden>Mostrar mais fichas</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTIGOS E DOSSIÊS -->
+    <section class="vista" data-vista="artigos" hidden aria-labelledby="t-artigos">
+      <div class="hemeroteca">
+        <div class="hemeroteca__cabeca">
+          <h2 id="t-artigos">Hemeroteca: artigos, dossiês e teses</h2>
+          <p>Consulta ao vivo em mais de 250 milhões de trabalhos acadêmicos indexados pelo <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>. Só aparecem trabalhos de acesso aberto, que você pode ler e baixar gratuitamente.</p>
+        </div>
+        <form class="hemeroteca__form" id="form-artigos">
+          <div class="campo campo--largo">
+            <label for="a-busca">Assunto</label>
+            <input id="a-busca" type="search" placeholder="ex.: detecção de intrusão, LLM, computação em borda" required>
+          </div>
+          <div class="campo">
+            <label for="a-tipo">Tipo de documento</label>
+            <select id="a-tipo">
+              <option value="article">Artigos científicos</option>
+              <option value="report">Dossiês e relatórios técnicos</option>
+              <option value="dissertation">Teses e dissertações</option>
+              <option value="book|book-chapter">Livros acadêmicos</option>
+              <option value="preprint">Preprints</option>
+              <option value="review">Revisões de literatura</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="a-campo">Área</label>
+            <select id="a-campo">
+              <option value="17">Ciência da Computação</option>
+              <option value="22">Engenharia</option>
+              <option value="17|22">Computação e Engenharia</option>
+              <option value="">Qualquer área</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="a-idioma">Idioma</label>
+            <select id="a-idioma">
+              <option value="">Qualquer idioma</option>
+              <option value="pt">Português</option>
+              <option value="en">Inglês</option>
+              <option value="es">Espanhol</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="a-ordem">Ordenar por</label>
+            <select id="a-ordem">
+              <option value="relevance_score:desc">Relevância</option>
+              <option value="publication_year:desc">Mais recentes</option>
+              <option value="cited_by_count:desc">Mais citados</option>
+            </select>
+          </div>
+          <div class="campo campo--acao">
+            <label class="caixa"><input type="checkbox" id="a-pdf" checked> Só com PDF</label>
+            <button type="submit">Pesquisar</button>
+          </div>
+        </form>
+        <p class="estantes__resultado" id="a-resultado" aria-live="polite"></p>
+        <ol class="fichas fichas--artigos" id="a-fichas"></ol>
+        <button class="mais" type="button" id="a-mais" hidden>Carregar mais resultados</button>
+      </div>
+    </section>
+
+    <!-- MINHA ESTANTE -->
+    <section class="vista" data-vista="estante" hidden aria-labelledby="t-estante">
+      <div class="pagina-simples">
+        <h2 id="t-estante">Minha estante</h2>
+        <p>Os itens que você guarda ficam salvos neste navegador. Use o marcador em qualquer ficha para adicionar ou remover.</p>
+        <ol class="fichas" id="fichas-estante"></ol>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="vista" data-vista="sobre" hidden aria-labelledby="t-sobre">
+      <div class="pagina-simples pagina-simples--texto">
+        <h2 id="t-sobre">Sobre o Codex Aberto</h2>
+        <p>O Codex Aberto é uma biblioteca digital mantida pela comunidade. Ela não hospeda arquivos: cataloga obras que os próprios autores e editoras disponibilizam gratuitamente na web e aponta para a fonte original.</p>
+        <h3>Como o acervo é formado</h3>
+        <p>Os livros vêm de listas abertas e revisadas pela comunidade, principalmente a <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noopener">free-programming-books</a>, da Free Ebook Foundation (licença CC BY 4.0). Um coletor automático atualiza o catálogo toda semana e classifica cada obra em uma área com número de chamada inspirado na Classificação Decimal de Dewey. Artigos, dossiês e teses são consultados ao vivo no OpenAlex.</p>
+        <h3>Como colaborar</h3>
+        <p>Para sugerir uma obra, adicione-a em <code>data/manual.json</code> e abra um pull request. Só entram obras distribuídas gratuitamente e de forma legal pelos detentores dos direitos. Encontrou um link quebrado ou um item mal classificado? Abra uma issue no repositório.</p>
+        <p id="info-atualizacao"></p>
+        <h3>Outras bibliotecas abertas</h3>
+        <ul class="colecoes" id="lista-colecoes"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Codex Aberto é software livre (licença MIT). Metadados do acervo: free-programming-books (CC BY 4.0) e OpenAlex (CC0). Os direitos de cada obra pertencem aos seus autores.</p>
+  </footer>
+
+  <!-- LEITOR -->
+  <dialog class="leitor" id="leitor" aria-labelledby="leitor-titulo">
+    <div class="leitor__barra">
+      <div class="leitor__info">
+        <p class="leitor__chamada" id="leitor-chamada"></p>
+        <h2 id="leitor-titulo"></h2>
+      </div>
+      <div class="leitor__acoes">
+        <a class="botao botao--claro" id="leitor-baixar" target="_blank" rel="noopener" download>Baixar</a>
+        <a class="botao botao--claro" id="leitor-origem" target="_blank" rel="noopener">Abrir na fonte</a>
+        <button class="botao botao--fechar" type="button" id="leitor-fechar" aria-label="Fechar leitor">Fechar</button>
+      </div>
+    </div>
+    <div class="leitor__mesa">
+      <iframe id="leitor-quadro" title="Leitura do documento" referrerpolicy="no-referrer"></iframe>
+      <p class="leitor__aviso">Se o documento não aparecer, a fonte original não permite leitura incorporada. Use “Abrir na fonte” ou “Baixar”.</p>
+    </div>
+  </dialog>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="selo" viewBox="0 0 40 40">
+      <circle cx="20" cy="20" r="18.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M11 13.5c3.2-.9 6.3-.4 9 1.6 2.7-2 5.8-2.5 9-1.6v13c-3.2-.9-6.3-.4-9 1.6-2.7-2-5.8-2.5-9-1.6z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M20 15.1v13" stroke="currentColor" stroke-width="1.5"/>
+    </symbol>
+    <symbol id="marcador" viewBox="0 0 24 24">
+      <path d="M6.5 3.5h11v17l-5.5-4-5.5 4z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+    </symbol>
+  </svg>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

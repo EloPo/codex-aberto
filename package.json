@@ -1,0 +1,15 @@
+{
+  "name": "codex-aberto",
+  "version": "1.0.0",
+  "description": "Biblioteca digital open source de livros, artigos científicos e dossiês gratuitos de tecnologia.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "coletar": "node scripts/collect.mjs",
+    "coletar:completo": "node scripts/collect.mjs --openalex",
+    "start": "node scripts/serve.mjs"
+  },
+  "keywords": ["biblioteca", "livros", "open-source", "tecnologia", "ebooks", "artigos-cientificos"]
+}

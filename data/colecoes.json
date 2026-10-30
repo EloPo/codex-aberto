@@ -1,0 +1,212 @@
+[
+  {
+    "titulo": "Galileo Computing - openbook",
+    "url": "https://www.rheinwerk-verlag.de/openbook",
+    "descricao": ""
+  },
+  {
+    "titulo": "Aprender Python",
+    "url": "https://wiki.python.org.ar/aprendiendopython/",
+    "descricao": "Python Argentina"
+  },
+  {
+    "titulo": "Apuntes Completos de Desarrollo Web",
+    "url": "http://jorgesanchez.net",
+    "descricao": "Jorge Sánchez"
+  },
+  {
+    "titulo": "Asombroso DDD: Una lista curada de recursos sobre Domain Driven Design",
+    "url": "https://github.com/ddd-espanol/asombroso-ddd",
+    "descricao": ""
+  },
+  {
+    "titulo": "Desarrollo de Aplicaciones Web - Temario Completo",
+    "url": "https://github.com/statickidz/TemarioDAW#temario-daw",
+    "descricao": "José Luis Comesaña (GitHub)"
+  },
+  {
+    "titulo": "Desarrollo de Aplicaciones Web y Sistemas Microinformáticos y Redes",
+    "url": "https://javiergarciaescobedo.es",
+    "descricao": "Javier García Escobedo"
+  },
+  {
+    "titulo": "Gitbook - Libros útiles en español",
+    "url": "https://github.com/rosepac/gitbook-biblioteca-impresionante-en-espanol#gitbook---gu%C3%ADas-creadas-en-gitbook-en-espa%C3%B1ol",
+    "descricao": "Pablo Alvarez Corredera (GitHub)"
+  },
+  {
+    "titulo": "Múltiples Cursos y Enlaces de Tecnología Informática",
+    "url": "http://elvex.ugr.es",
+    "descricao": "Fernando Berzal Galiano"
+  },
+  {
+    "titulo": "OpenLibra - Biblioteca recopilatorio de libros libres",
+    "url": "https://openlibra.com/es/collection",
+    "descricao": ""
+  },
+  {
+    "titulo": "Universidad Nacional Autónoma de México - Plan (2016)",
+    "url": "http://fcasua.contad.unam.mx/apuntes/interiores/plan2016_1.php",
+    "descricao": ""
+  },
+  {
+    "titulo": "Atariarchives.org",
+    "url": "https://www.atariarchives.org",
+    "descricao": "Atariarchives.org makes books, information, and software for Atari and other classic computers available on the Web."
+  },
+  {
+    "titulo": "Bento",
+    "url": "https://www.bento.io",
+    "descricao": ""
+  },
+  {
+    "titulo": "Bitsavers.org",
+    "url": "http://bitsavers.trailing-edge.com",
+    "descricao": ""
+  },
+  {
+    "titulo": "Build your own X",
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "descricao": ""
+  },
+  {
+    "titulo": "Code Catalog: A Collection of Code Examples from Prominent Open Source Projects",
+    "url": "https://codecatalog.org",
+    "descricao": ""
+  },
+  {
+    "titulo": "conceptf1.blogspot.com",
+    "url": "https://conceptf1.blogspot.com/2013/11/list-of-freely-available-programming.html",
+    "descricao": ""
+  },
+  {
+    "titulo": "dBooks - Free download open books",
+    "url": "https://www.dbooks.org",
+    "descricao": ""
+  },
+  {
+    "titulo": "Free Tech Books",
+    "url": "https://www.freetechbooks.com",
+    "descricao": ""
+  },
+  {
+    "titulo": "Goalkicker",
+    "url": "https://goalkicker.com",
+    "descricao": "Programming Notes for Professionals books"
+  },
+  {
+    "titulo": "IBM Redbooks",
+    "url": "https://www.redbooks.ibm.com",
+    "descricao": ""
+  },
+  {
+    "titulo": "InfoQ Minibooks",
+    "url": "https://www.infoq.com/minibooks/",
+    "descricao": ""
+  },
+  {
+    "titulo": "InTech: Computer and Information Science",
+    "url": "https://www.intechopen.com/subjects/9",
+    "descricao": ""
+  },
+  {
+    "titulo": "JSBooks - directory of free javascript ebooks",
+    "url": "https://github.com/revolunet/JSbooks",
+    "descricao": ""
+  },
+  {
+    "titulo": "Learn X in Y minutes",
+    "url": "https://learnxinyminutes.com",
+    "descricao": ""
+  },
+  {
+    "titulo": "Learneroo Resources to Learn Programming",
+    "url": "https://www.learneroo.com/modules/12/nodes/96",
+    "descricao": ""
+  },
+  {
+    "titulo": "Microsoft Guides to Software",
+    "url": "https://blogs.msdn.microsoft.com/mssmallbiz/2014/07/07/largest-collection-of-free-microsoft-ebooks-ever-including-windows-8-1-windows-8-windows-7-office-2013-office-365-office-2010-sharepoint-2013-dynamics-crm-powershell-exchange-server-lync-2/",
+    "descricao": ""
+  },
+  {
+    "titulo": "Microsoft Press: Free E-Books",
+    "url": "https://mva.microsoft.com/ebooks",
+    "descricao": ""
+  },
+  {
+    "titulo": "Microsoft Technologies 1, including books on Windows Azure, SharePoint, Visual Studio Guide, Windows phone development, ASP.net, Office365, etc. collection by Eric Ligman",
+    "url": "https://blogs.msdn.microsoft.com/mssmallbiz/2012/07/27/large-collection-of-free-microsoft-ebooks-for-you-including-sharepoint-visual-studio-windows-phone-windows-8-office-365-office-2010-sql-server-2012-azure-and-more/",
+    "descricao": ""
+  },
+  {
+    "titulo": "Microsoft Technologies 2, including books on Windows Azure, SharePoint, Visual Studio Guide, Windows phone development, ASP.net, etc. collection by Eric Ligman",
+    "url": "https://blogs.msdn.microsoft.com/mssmallbiz/2012/07/30/another-large-collection-of-free-microsoft-ebooks-and-resource-kits-for-you-including-sharepoint-2013-office-2013-office-365-duet-2-0-azure-cloud-windows-phone-lync-dynamics-crm-and-more/",
+    "descricao": ""
+  },
+  {
+    "titulo": "Microsoft Technologies 3, DevOps for ASP.NET Core Developers",
+    "url": "https://raw.githubusercontent.com/dotnet-architecture/eBooks/main/current/devops-aspnet-core/DevOps-for-ASP.NET-Core-Developers.pdf",
+    "descricao": "Cam Soper, Scott Addie, Colin Dembovsky (PDF)"
+  },
+  {
+    "titulo": "O'Reilly's Open Books Project",
+    "url": "https://www.oreilly.com/openbook/",
+    "descricao": ""
+  },
+  {
+    "titulo": "Papers we love",
+    "url": "https://github.com/papers-we-love/papers-we-love",
+    "descricao": ""
+  },
+  {
+    "titulo": "Red Gate Books",
+    "url": "https://www.red-gate.com/hub/books/",
+    "descricao": ""
+  },
+  {
+    "titulo": "Rip Tutorials",
+    "url": "https://riptutorial.com/ebook",
+    "descricao": ""
+  },
+  {
+    "titulo": "Stef's Free Online Smalltalk Books",
+    "url": "http://stephane.ducasse.free.fr/FreeBooks/",
+    "descricao": ""
+  },
+  {
+    "titulo": "TechBeamers.com",
+    "url": "https://www.techbeamers.com",
+    "descricao": ""
+  },
+  {
+    "titulo": "TechBooksForFree.com",
+    "url": "https://www.techbooksforfree.com",
+    "descricao": ""
+  },
+  {
+    "titulo": "The Definitive C++ Book Guide and List",
+    "url": "https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list",
+    "descricao": ""
+  },
+  {
+    "titulo": "Theassayer.org",
+    "url": "http://theassayer.org",
+    "descricao": ""
+  },
+  {
+    "titulo": "Tutorials Point",
+    "url": "https://www.tutorialspoint.com",
+    "descricao": ""
+  },
+  {
+    "titulo": "Visualgo: Algorithm and Data Structure Visualization",
+    "url": "https://visualgo.net",
+    "descricao": "Visualise data structures and algorithms through animation"
+  },
+  {
+    "titulo": "Books - Telugu",
+    "url": "https://sites.google.com/nptel.iitm.ac.in/translated-ebook/telugu",
+    "descricao": ""
+  }
+]

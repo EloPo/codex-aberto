@@ -1,0 +1,2263 @@
+{
+  "meta": {
+    "geradoEm": "2026-10-30T23:07:36.880Z",
+    "total": 4681,
+    "fontes": [
+      {
+        "nome": "free-programming-books (EbookFoundation)",
+        "url": "https://github.com/EbookFoundation/free-programming-books",
+        "licenca": "CC BY 4.0"
+      }
+    ]
+  },
+  "areas": [
+    {
+      "id": "ia-dados",
+      "nome": "Inteligência Artificial & Dados",
+      "cdd": "006.3",
+      "descricao": "IA, aprendizado de máquina, ciência de dados, visão computacional, PLN e engenharia de prompts.",
+      "total": 202,
+      "tipos": {
+        "livro": 202
+      },
+      "ramos": [
+        {
+          "nome": "Machine Learning",
+          "total": 66
+        },
+        {
+          "nome": "Artificial Intelligence",
+          "total": 34
+        },
+        {
+          "nome": "Data Science",
+          "total": 24
+        },
+        {
+          "nome": "Python",
+          "total": 15
+        },
+        {
+          "nome": "R",
+          "total": 12
+        },
+        {
+          "nome": "Prompt Engineering",
+          "total": 7
+        },
+        {
+          "nome": "Hadoop",
+          "total": 6
+        },
+        {
+          "nome": "Computer Vision",
+          "total": 6
+        },
+        {
+          "nome": "Spark",
+          "total": 4
+        },
+        {
+          "nome": "Search Engines",
+          "total": 4
+        },
+        {
+          "nome": "Inteligência Artificial",
+          "total": 3
+        },
+        {
+          "nome": "Pandas",
+          "total": 3
+        },
+        {
+          "nome": "Information Retrieval",
+          "total": 3
+        },
+        {
+          "nome": "Java",
+          "total": 2
+        },
+        {
+          "nome": "Inteligencia Artificial",
+          "total": 2
+        },
+        {
+          "nome": "人工智能",
+          "total": 2
+        },
+        {
+          "nome": "Ada",
+          "total": 1
+        },
+        {
+          "nome": "Julia",
+          "total": 1
+        },
+        {
+          "nome": "Prolog",
+          "total": 1
+        },
+        {
+          "nome": "Lisp",
+          "total": 1
+        },
+        {
+          "nome": "PHP",
+          "total": 1
+        },
+        {
+          "nome": "Apache Spark",
+          "total": 1
+        },
+        {
+          "nome": "大数据",
+          "total": 1
+        },
+        {
+          "nome": "Pandas Python",
+          "total": 1
+        },
+        {
+          "nome": "ゲーム開発",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "seguranca",
+      "nome": "Segurança & Privacidade",
+      "cdd": "005.8",
+      "descricao": "Segurança da informação, criptografia, pentest, engenharia reversa e privacidade.",
+      "total": 43,
+      "tipos": {
+        "livro": 43
+      },
+      "ramos": [
+        {
+          "nome": "Security & Privacy",
+          "total": 26
+        },
+        {
+          "nome": "Reverse Engineering",
+          "total": 4
+        },
+        {
+          "nome": ".NET Framework",
+          "total": 2
+        },
+        {
+          "nome": "Security",
+          "total": 2
+        },
+        {
+          "nome": "Swift",
+          "total": 1
+        },
+        {
+          "nome": "Elixir",
+          "total": 1
+        },
+        {
+          "nome": "Lisp",
+          "total": 1
+        },
+        {
+          "nome": "Go",
+          "total": 1
+        },
+        {
+          "nome": "Assembleur",
+          "total": 1
+        },
+        {
+          "nome": "Ruby",
+          "total": 1
+        },
+        {
+          "nome": "Systèmes d'exploitation",
+          "total": 1
+        },
+        {
+          "nome": "Spring Security",
+          "total": 1
+        },
+        {
+          "nome": "PHP",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "fronteiras",
+      "nome": "Fronteiras: Quântica & Blockchain",
+      "cdd": "006.9",
+      "descricao": "Computação quântica, blockchain, criptoativos e contratos inteligentes.",
+      "total": 26,
+      "tipos": {
+        "livro": 26
+      },
+      "ramos": [
+        {
+          "nome": "Blockchain",
+          "total": 13
+        },
+        {
+          "nome": "Quantum Computing",
+          "total": 7
+        },
+        {
+          "nome": "Solidity",
+          "total": 3
+        },
+        {
+          "nome": "Chaîne de blocs / Blockchain",
+          "total": 2
+        },
+        {
+          "nome": "Q#",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "bancos-de-dados",
+      "nome": "Bancos de Dados",
+      "cdd": "005.74",
+      "descricao": "Modelagem, SQL, NoSQL e sistemas gerenciadores de bancos de dados.",
+      "total": 188,
+      "tipos": {
+        "livro": 188
+      },
+      "ramos": [
+        {
+          "nome": "SQL Server",
+          "total": 32
+        },
+        {
+          "nome": "NoSQL",
+          "total": 25
+        },
+        {
+          "nome": "SQL",
+          "total": 21
+        },
+        {
+          "nome": "PostgreSQL",
+          "total": 19
+        },
+        {
+          "nome": "MySQL",
+          "total": 14
+        },
+        {
+          "nome": "Database",
+          "total": 14
+        },
+        {
+          "nome": "SQL (implementation agnostic)",
+          "total": 14
+        },
+        {
+          "nome": "MongoDB",
+          "total": 8
+        },
+        {
+          "nome": "Base de Datos",
+          "total": 5
+        },
+        {
+          "nome": "Neo4J",
+          "total": 5
+        },
+        {
+          "nome": "FirebirdSQL",
+          "total": 5
+        },
+        {
+          "nome": "DBMS",
+          "total": 3
+        },
+        {
+          "nome": "管理和监控",
+          "total": 3
+        },
+        {
+          "nome": "SQL(実装非依存)",
+          "total": 3
+        },
+        {
+          "nome": "Elasticsearch",
+          "total": 2
+        },
+        {
+          "nome": "Banco de Dados",
+          "total": 2
+        },
+        {
+          "nome": "PHP",
+          "total": 2
+        },
+        {
+          "nome": "Sql",
+          "total": 2
+        },
+        {
+          "nome": "DynamoDB",
+          "total": 1
+        },
+        {
+          "nome": "C",
+          "total": 1
+        },
+        {
+          "nome": "Redis",
+          "total": 1
+        },
+        {
+          "nome": "Relazionali",
+          "total": 1
+        },
+        {
+          "nome": "Java",
+          "total": 1
+        },
+        {
+          "nome": "Force.com",
+          "total": 1
+        },
+        {
+          "nome": "Neo4j",
+          "total": 1
+        },
+        {
+          "nome": "DB & DBMS",
+          "total": 1
+        },
+        {
+          "nome": "セキュリティ",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "nuvem-devops",
+      "nome": "Nuvem, DevOps & Ferramentas",
+      "cdd": "004.67",
+      "descricao": "Computação em nuvem, contêineres, CI/CD, controle de versão e automação.",
+      "total": 178,
+      "tipos": {
+        "livro": 178
+      },
+      "ramos": [
+        {
+          "nome": "Git",
+          "total": 45
+        },
+        {
+          "nome": "Version Control Systems",
+          "total": 36
+        },
+        {
+          "nome": "IDE and editors",
+          "total": 30
+        },
+        {
+          "nome": "Cloud Computing",
+          "total": 18
+        },
+        {
+          "nome": "Maven",
+          "total": 9
+        },
+        {
+          "nome": "Containers",
+          "total": 9
+        },
+        {
+          "nome": "Emacs Lisp",
+          "total": 4
+        },
+        {
+          "nome": "Gradle",
+          "total": 4
+        },
+        {
+          "nome": "Jenkins",
+          "total": 4
+        },
+        {
+          "nome": "CMake",
+          "total": 3
+        },
+        {
+          "nome": "Make",
+          "total": 3
+        },
+        {
+          "nome": "Autotools",
+          "total": 2
+        },
+        {
+          "nome": "Kubernetes",
+          "total": 2
+        },
+        {
+          "nome": "Docker",
+          "total": 2
+        },
+        {
+          "nome": "Mercurial",
+          "total": 2
+        },
+        {
+          "nome": "Subversion",
+          "total": 1
+        },
+        {
+          "nome": "Workflow",
+          "total": 1
+        },
+        {
+          "nome": "Git and Github",
+          "total": 1
+        },
+        {
+          "nome": "DevOps",
+          "total": 1
+        },
+        {
+          "nome": "Git Github",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "redes",
+      "nome": "Redes & Internet",
+      "cdd": "004.6",
+      "descricao": "Protocolos, TCP/IP, redes de computadores, sistemas distribuídos e serviços web.",
+      "total": 30,
+      "tipos": {
+        "livro": 30
+      },
+      "ramos": [
+        {
+          "nome": "Networking",
+          "total": 24
+        },
+        {
+          "nome": "GraphQL",
+          "total": 4
+        },
+        {
+          "nome": "Web Services",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "id": "web-mobile",
+      "nome": "Web & Mobile",
+      "cdd": "006.76",
+      "descricao": "Front-end, back-end web, frameworks JavaScript, Android, iOS e desempenho web.",
+      "total": 890,
+      "tipos": {
+        "livro": 890
+      },
+      "ramos": [
+        {
+          "nome": "JavaScript",
+          "total": 169
+        },
+        {
+          "nome": "HTML and CSS",
+          "total": 125
+        },
+        {
+          "nome": "Django",
+          "total": 51
+        },
+        {
+          "nome": "Node.js",
+          "total": 46
+        },
+        {
+          "nome": "React",
+          "total": 39
+        },
+        {
+          "nome": "TypeScript",
+          "total": 37
+        },
+        {
+          "nome": "Android",
+          "total": 34
+        },
+        {
+          "nome": "AngularJS",
+          "total": 30
+        },
+        {
+          "nome": "Ruby on Rails",
+          "total": 25
+        },
+        {
+          "nome": "Angular",
+          "total": 22
+        },
+        {
+          "nome": "iOS",
+          "total": 21
+        },
+        {
+          "nome": "Laravel",
+          "total": 19
+        },
+        {
+          "nome": "Symfony",
+          "total": 19
+        },
+        {
+          "nome": "Web",
+          "total": 18
+        },
+        {
+          "nome": "Vue.js",
+          "total": 17
+        },
+        {
+          "nome": "jQuery",
+          "total": 15
+        },
+        {
+          "nome": "Backbone.js",
+          "total": 11
+        },
+        {
+          "nome": "CodeIgniter",
+          "total": 11
+        },
+        {
+          "nome": "Yii",
+          "total": 11
+        },
+        {
+          "nome": "React.js",
+          "total": 10
+        },
+        {
+          "nome": "Flask",
+          "total": 9
+        },
+        {
+          "nome": "ASP.NET",
+          "total": 8
+        },
+        {
+          "nome": "Elm",
+          "total": 8
+        },
+        {
+          "nome": "Bootstrap",
+          "total": 8
+        },
+        {
+          "nome": "Spring",
+          "total": 8
+        },
+        {
+          "nome": "Next.js",
+          "total": 8
+        },
+        {
+          "nome": "Svelte",
+          "total": 7
+        },
+        {
+          "nome": "D3.js",
+          "total": 7
+        },
+        {
+          "nome": "Ember.js",
+          "total": 6
+        },
+        {
+          "nome": "Flutter",
+          "total": 6
+        },
+        {
+          "nome": "React Native",
+          "total": 6
+        },
+        {
+          "nome": "Regular Expressions",
+          "total": 6
+        },
+        {
+          "nome": "Deno",
+          "total": 5
+        },
+        {
+          "nome": "FastAPI",
+          "total": 5
+        },
+        {
+          "nome": "Web Development",
+          "total": 5
+        },
+        {
+          "nome": "Web Performance",
+          "total": 4
+        },
+        {
+          "nome": "WEB服务器",
+          "total": 3
+        },
+        {
+          "nome": "Meteor",
+          "total": 3
+        },
+        {
+          "nome": "ASP.NET Core",
+          "total": 3
+        },
+        {
+          "nome": "CakePHP",
+          "total": 3
+        },
+        {
+          "nome": "Express.js",
+          "total": 3
+        },
+        {
+          "nome": "Redux",
+          "total": 3
+        },
+        {
+          "nome": "Blazor",
+          "total": 2
+        },
+        {
+          "nome": "Spring Boot",
+          "total": 2
+        },
+        {
+          "nome": "Drupal",
+          "total": 2
+        },
+        {
+          "nome": "Electron.js",
+          "total": 2
+        },
+        {
+          "nome": "Grunt",
+          "total": 2
+        },
+        {
+          "nome": "HTML",
+          "total": 2
+        },
+        {
+          "nome": "Nuxt.js",
+          "total": 2
+        },
+        {
+          "nome": "Phoenix",
+          "total": 2
+        },
+        {
+          "nome": "Springboot",
+          "total": 2
+        },
+        {
+          "nome": "Hydrogen",
+          "total": 1
+        },
+        {
+          "nome": "Knockout.js",
+          "total": 1
+        },
+        {
+          "nome": "Dojo",
+          "total": 1
+        },
+        {
+          "nome": "Electron",
+          "total": 1
+        },
+        {
+          "nome": "ExtJS",
+          "total": 1
+        },
+        {
+          "nome": "Fastify",
+          "total": 1
+        },
+        {
+          "nome": "Gulp",
+          "total": 1
+        },
+        {
+          "nome": "Ionic",
+          "total": 1
+        },
+        {
+          "nome": "Joomla",
+          "total": 1
+        },
+        {
+          "nome": "Om",
+          "total": 1
+        },
+        {
+          "nome": "Spring Data",
+          "total": 1
+        },
+        {
+          "nome": "Booty5.js",
+          "total": 1
+        },
+        {
+          "nome": "Zend",
+          "total": 1
+        },
+        {
+          "nome": "MERN Web development",
+          "total": 1
+        },
+        {
+          "nome": "Webpack",
+          "total": 1
+        },
+        {
+          "nome": "Zepto.js",
+          "total": 1
+        },
+        {
+          "nome": "WordPress",
+          "total": 1
+        },
+        {
+          "nome": "Amazon Web Service",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "jogos-graficos",
+      "nome": "Jogos & Computação Gráfica",
+      "cdd": "794.8",
+      "descricao": "Desenvolvimento de jogos, renderização, OpenGL, Vulkan, interfaces gráficas e multimídia.",
+      "total": 83,
+      "tipos": {
+        "livro": 83
+      },
+      "ramos": [
+        {
+          "nome": "Graphics Programming",
+          "total": 26
+        },
+        {
+          "nome": "Game Development",
+          "total": 12
+        },
+        {
+          "nome": "Python",
+          "total": 10
+        },
+        {
+          "nome": "Graphical User Interfaces",
+          "total": 7
+        },
+        {
+          "nome": "グラフィックスプログラミング",
+          "total": 5
+        },
+        {
+          "nome": "C++",
+          "total": 4
+        },
+        {
+          "nome": "Vulkan",
+          "total": 4
+        },
+        {
+          "nome": ".NET Framework",
+          "total": 2
+        },
+        {
+          "nome": "Java",
+          "total": 1
+        },
+        {
+          "nome": "ゲーム開発",
+          "total": 1
+        },
+        {
+          "nome": "Ruby",
+          "total": 1
+        },
+        {
+          "nome": "LaTeX",
+          "total": 1
+        },
+        {
+          "nome": "R",
+          "total": 1
+        },
+        {
+          "nome": "OpenGL",
+          "total": 1
+        },
+        {
+          "nome": "计算机图形学",
+          "total": 1
+        },
+        {
+          "nome": "グラフィックユーザーインターフェイス",
+          "total": 1
+        },
+        {
+          "nome": "Perl",
+          "total": 1
+        },
+        {
+          "nome": "Tcl/Tk",
+          "total": 1
+        },
+        {
+          "nome": "C",
+          "total": 1
+        },
+        {
+          "nome": "Unity",
+          "total": 1
+        },
+        {
+          "nome": "WebGL",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "hardware-iot",
+      "nome": "Hardware, Embarcados & IoT",
+      "cdd": "621.39",
+      "descricao": "Sistemas embarcados, microcontroladores, Arduino, Raspberry Pi, FPGA e Internet das Coisas.",
+      "total": 50,
+      "tipos": {
+        "livro": 50
+      },
+      "ramos": [
+        {
+          "nome": "Arduino",
+          "total": 17
+        },
+        {
+          "nome": "Raspberry Pi",
+          "total": 8
+        },
+        {
+          "nome": "Embedded Systems",
+          "total": 6
+        },
+        {
+          "nome": "VHDL",
+          "total": 4
+        },
+        {
+          "nome": "Verilog",
+          "total": 4
+        },
+        {
+          "nome": "Internet das Coisas",
+          "total": 2
+        },
+        {
+          "nome": "C++",
+          "total": 2
+        },
+        {
+          "nome": "IoT",
+          "total": 2
+        },
+        {
+          "nome": "IoT (internet of things)",
+          "total": 1
+        },
+        {
+          "nome": "MATLAB",
+          "total": 1
+        },
+        {
+          "nome": "TLA",
+          "total": 1
+        },
+        {
+          "nome": "Rust",
+          "total": 1
+        },
+        {
+          "nome": "IOT",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "sistemas",
+      "nome": "Sistemas Operacionais & Arquitetura",
+      "cdd": "004.2",
+      "descricao": "Sistemas operacionais, Linux/Unix, arquitetura de computadores, compiladores, programação paralela e de baixo nível.",
+      "total": 281,
+      "tipos": {
+        "livro": 281
+      },
+      "ramos": [
+        {
+          "nome": "Linux",
+          "total": 80
+        },
+        {
+          "nome": "Bash",
+          "total": 34
+        },
+        {
+          "nome": "PowerShell",
+          "total": 22
+        },
+        {
+          "nome": "Unix",
+          "total": 22
+        },
+        {
+          "nome": "Assembly Language",
+          "total": 19
+        },
+        {
+          "nome": "Operating Systems",
+          "total": 19
+        },
+        {
+          "nome": "Compiler Design",
+          "total": 15
+        },
+        {
+          "nome": "Assembly",
+          "total": 11
+        },
+        {
+          "nome": "Parallel Programming",
+          "total": 7
+        },
+        {
+          "nome": "Non-X86",
+          "total": 6
+        },
+        {
+          "nome": "Shell",
+          "total": 6
+        },
+        {
+          "nome": "Shell / Bash",
+          "total": 5
+        },
+        {
+          "nome": "CUDA",
+          "total": 5
+        },
+        {
+          "nome": "Distribuce",
+          "total": 5
+        },
+        {
+          "nome": "Computer Organization and Architecture",
+          "total": 4
+        },
+        {
+          "nome": "Windows Phone",
+          "total": 4
+        },
+        {
+          "nome": "OpenMP",
+          "total": 3
+        },
+        {
+          "nome": "Sistemas Operacionais",
+          "total": 3
+        },
+        {
+          "nome": "BASH",
+          "total": 3
+        },
+        {
+          "nome": "Sistemas Operativos",
+          "total": 2
+        },
+        {
+          "nome": "Bash / Shell",
+          "total": 2
+        },
+        {
+          "nome": "Computer architecture",
+          "total": 2
+        },
+        {
+          "nome": "Windows 8",
+          "total": 1
+        },
+        {
+          "nome": "Operating System",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "engenharia-software",
+      "nome": "Engenharia & Arquitetura de Software",
+      "cdd": "005.1",
+      "descricao": "Arquitetura, padrões de projeto, métodos ágeis, testes, carreira, licenças e ecossistema open source.",
+      "total": 111,
+      "tipos": {
+        "livro": 111
+      },
+      "ramos": [
+        {
+          "nome": "Software Architecture",
+          "total": 49
+        },
+        {
+          "nome": "Open Source Ecosystem",
+          "total": 23
+        },
+        {
+          "nome": "Professional Development",
+          "total": 12
+        },
+        {
+          "nome": "Metodologías de desarrollo de software",
+          "total": 5
+        },
+        {
+          "nome": "Arquitetura de Software",
+          "total": 4
+        },
+        {
+          "nome": "Metodologias de Desenvolvimento de Software",
+          "total": 4
+        },
+        {
+          "nome": "Metodologie di sviluppo del software",
+          "total": 2
+        },
+        {
+          "nome": "UML",
+          "total": 2
+        },
+        {
+          "nome": "Outros",
+          "total": 2
+        },
+        {
+          "nome": "Licensing",
+          "total": 2
+        },
+        {
+          "nome": "Engenharia de Software",
+          "total": 2
+        },
+        {
+          "nome": "Standards",
+          "total": 2
+        },
+        {
+          "nome": "Software Testing",
+          "total": 1
+        },
+        {
+          "nome": "Software Engineering",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "fundamentos",
+      "nome": "Fundamentos & Teoria da Computação",
+      "cdd": "004.01",
+      "descricao": "Algoritmos, estruturas de dados, teoria da computação, matemática e programação competitiva.",
+      "total": 261,
+      "tipos": {
+        "livro": 261
+      },
+      "ramos": [
+        {
+          "nome": "Mathematics",
+          "total": 87
+        },
+        {
+          "nome": "Algorithms & Data Structures",
+          "total": 43
+        },
+        {
+          "nome": "Algebra",
+          "total": 25
+        },
+        {
+          "nome": "Calculus",
+          "total": 17
+        },
+        {
+          "nome": "Computer Science",
+          "total": 15
+        },
+        {
+          "nome": "Theoretical Computer Science",
+          "total": 13
+        },
+        {
+          "nome": "Mathematics For Computer Science",
+          "total": 8
+        },
+        {
+          "nome": "Algoritmos y Estructuras de Datos",
+          "total": 8
+        },
+        {
+          "nome": "Fundamentos Matemáticos Computacionais",
+          "total": 7
+        },
+        {
+          "nome": "Algorithmique",
+          "total": 6
+        },
+        {
+          "nome": "Algoritma ve Veri Yapıları",
+          "total": 5
+        },
+        {
+          "nome": "Mathematica",
+          "total": 5
+        },
+        {
+          "nome": "Cellular Automata",
+          "total": 4
+        },
+        {
+          "nome": "Competitive Programming",
+          "total": 4
+        },
+        {
+          "nome": "Logiciels libres",
+          "total": 4
+        },
+        {
+          "nome": "Algoritmi e Strutture Dati",
+          "total": 2
+        },
+        {
+          "nome": "Algoritmy a datové struktury",
+          "total": 2
+        },
+        {
+          "nome": "Constraint Logic Programming (extended Prolog)",
+          "total": 1
+        },
+        {
+          "nome": "Data Structure and Algorithms",
+          "total": 1
+        },
+        {
+          "nome": "Algorithms",
+          "total": 1
+        },
+        {
+          "nome": "RegEx",
+          "total": 1
+        },
+        {
+          "nome": "Partial Evaluation",
+          "total": 1
+        },
+        {
+          "nome": "Matemáticas",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "id": "programacao",
+      "nome": "Programação & Linguagens",
+      "cdd": "005.13",
+      "descricao": "Linguagens de programação, paradigmas, orientação a objetos e programação em geral.",
+      "total": 2338,
+      "tipos": {
+        "livro": 2338
+      },
+      "ramos": [
+        {
+          "nome": "Python",
+          "total": 283
+        },
+        {
+          "nome": "Java",
+          "total": 190
+        },
+        {
+          "nome": "C",
+          "total": 118
+        },
+        {
+          "nome": "C++",
+          "total": 112
+        },
+        {
+          "nome": "PHP",
+          "total": 82
+        },
+        {
+          "nome": "Misc",
+          "total": 77
+        },
+        {
+          "nome": "R",
+          "total": 76
+        },
+        {
+          "nome": "Ruby",
+          "total": 75
+        },
+        {
+          "nome": "Go",
+          "total": 64
+        },
+        {
+          "nome": "C#",
+          "total": 57
+        },
+        {
+          "nome": "Rust",
+          "total": 51
+        },
+        {
+          "nome": "Perl",
+          "total": 45
+        },
+        {
+          "nome": "LaTeX",
+          "total": 43
+        },
+        {
+          "nome": "Scala",
+          "total": 41
+        },
+        {
+          "nome": "Haskell",
+          "total": 40
+        },
+        {
+          "nome": "Lisp",
+          "total": 37
+        },
+        {
+          "nome": "Prolog",
+          "total": 22
+        },
+        {
+          "nome": "Golang",
+          "total": 22
+        },
+        {
+          "nome": "Clojure",
+          "total": 21
+        },
+        {
+          "nome": "操作系统",
+          "total": 21
+        },
+        {
+          "nome": "Fortran",
+          "total": 20
+        },
+        {
+          "nome": "MATLAB",
+          "total": 18
+        },
+        {
+          "nome": "Scheme",
+          "total": 18
+        },
+        {
+          "nome": "版本控制",
+          "total": 17
+        },
+        {
+          "nome": "Elixir",
+          "total": 16
+        },
+        {
+          "nome": "Programming",
+          "total": 15
+        },
+        {
+          "nome": ".NET Framework",
+          "total": 14
+        },
+        {
+          "nome": "在线教育",
+          "total": 14
+        },
+        {
+          "nome": "Scratch",
+          "total": 14
+        },
+        {
+          "nome": "Erlang",
+          "total": 14
+        },
+        {
+          "nome": "CoffeeScript",
+          "total": 14
+        },
+        {
+          "nome": "OCaml",
+          "total": 13
+        },
+        {
+          "nome": "Objective-C",
+          "total": 13
+        },
+        {
+          "nome": "Pascal",
+          "total": 13
+        },
+        {
+          "nome": "0 - Language Agnostic",
+          "total": 12
+        },
+        {
+          "nome": "Julia",
+          "total": 12
+        },
+        {
+          "nome": "Lua",
+          "total": 12
+        },
+        {
+          "nome": "Swift",
+          "total": 11
+        },
+        {
+          "nome": "Ada",
+          "total": 11
+        },
+        {
+          "nome": "J",
+          "total": 11
+        },
+        {
+          "nome": "Kotlin",
+          "total": 11
+        },
+        {
+          "nome": "Standard ML",
+          "total": 11
+        },
+        {
+          "nome": ".NET",
+          "total": 10
+        },
+        {
+          "nome": "COBOL",
+          "total": 9
+        },
+        {
+          "nome": "Smalltalk",
+          "total": 9
+        },
+        {
+          "nome": "0 - Niezależne od języka programowania",
+          "total": 9
+        },
+        {
+          "nome": "项目相关",
+          "total": 9
+        },
+        {
+          "nome": "Raku",
+          "total": 9
+        },
+        {
+          "nome": "Force.com",
+          "total": 8
+        },
+        {
+          "nome": "人工智能",
+          "total": 8
+        },
+        {
+          "nome": "Forth",
+          "total": 7
+        },
+        {
+          "nome": "0 - Programozási nyelv független",
+          "total": 7
+        },
+        {
+          "nome": "TeX",
+          "total": 7
+        },
+        {
+          "nome": "組み込みシステム",
+          "total": 6
+        },
+        {
+          "nome": "Misceláneos",
+          "total": 6
+        },
+        {
+          "nome": "APL",
+          "total": 6
+        },
+        {
+          "nome": "F Sharp",
+          "total": 6
+        },
+        {
+          "nome": "AWK",
+          "total": 6
+        },
+        {
+          "nome": "Storia dell'informatica",
+          "total": 6
+        },
+        {
+          "nome": "Sage",
+          "total": 6
+        },
+        {
+          "nome": "Dart",
+          "total": 6
+        },
+        {
+          "nome": "Programming Paradigms",
+          "total": 6
+        },
+        {
+          "nome": "セキュリティ",
+          "total": 6
+        },
+        {
+          "nome": "Visual Basic",
+          "total": 5
+        },
+        {
+          "nome": "Programação",
+          "total": 5
+        },
+        {
+          "nome": "GO",
+          "total": 5
+        },
+        {
+          "nome": "ColdFusion",
+          "total": 5
+        },
+        {
+          "nome": "Delphi / Pascal",
+          "total": 5
+        },
+        {
+          "nome": "Haxe",
+          "total": 5
+        },
+        {
+          "nome": "機械学習",
+          "total": 5
+        },
+        {
+          "nome": "Kieliagnostinen",
+          "total": 5
+        },
+        {
+          "nome": "BETA",
+          "total": 5
+        },
+        {
+          "nome": "Processing",
+          "total": 5
+        },
+        {
+          "nome": "その他の話題",
+          "total": 5
+        },
+        {
+          "nome": ".NET Core",
+          "total": 4
+        },
+        {
+          "nome": "Basic",
+          "total": 4
+        },
+        {
+          "nome": "Visual Prolog",
+          "total": 4
+        },
+        {
+          "nome": "Awk",
+          "total": 4
+        },
+        {
+          "nome": "Markdown",
+          "total": 4
+        },
+        {
+          "nome": "Ciencia Computacional",
+          "total": 4
+        },
+        {
+          "nome": "ゲーム開発",
+          "total": 4
+        },
+        {
+          "nome": "Rocq Prover",
+          "total": 4
+        },
+        {
+          "nome": "Unabhängig von der Programmiersprache",
+          "total": 4
+        },
+        {
+          "nome": "Nim",
+          "total": 4
+        },
+        {
+          "nome": "C / C++",
+          "total": 4
+        },
+        {
+          "nome": "D",
+          "total": 4
+        },
+        {
+          "nome": "Scilab",
+          "total": 4
+        },
+        {
+          "nome": "ABAP",
+          "total": 4
+        },
+        {
+          "nome": "Lift",
+          "total": 4
+        },
+        {
+          "nome": "Grails",
+          "total": 4
+        },
+        {
+          "nome": "ネットワーキング",
+          "total": 4
+        },
+        {
+          "nome": "Zig",
+          "total": 4
+        },
+        {
+          "nome": "其它",
+          "total": 4
+        },
+        {
+          "nome": "ソフトウェア品質",
+          "total": 4
+        },
+        {
+          "nome": "アクセシビリティ",
+          "total": 3
+        },
+        {
+          "nome": "Oberon",
+          "total": 3
+        },
+        {
+          "nome": "xBase (dBase / Clipper / Harbour)",
+          "total": 3
+        },
+        {
+          "nome": "FreeBSD",
+          "total": 3
+        },
+        {
+          "nome": "Chapel",
+          "total": 3
+        },
+        {
+          "nome": "Sistemi di controllo versione",
+          "total": 3
+        },
+        {
+          "nome": "Caml / OCaml",
+          "total": 3
+        },
+        {
+          "nome": "管理和监控",
+          "total": 3
+        },
+        {
+          "nome": "VBA",
+          "total": 3
+        },
+        {
+          "nome": "NumPY",
+          "total": 3
+        },
+        {
+          "nome": "Spock Framework",
+          "total": 3
+        },
+        {
+          "nome": "DB2",
+          "total": 3
+        },
+        {
+          "nome": "Sed",
+          "total": 3
+        },
+        {
+          "nome": "Groovy",
+          "total": 3
+        },
+        {
+          "nome": "Racket",
+          "total": 3
+        },
+        {
+          "nome": "OpenSource",
+          "total": 3
+        },
+        {
+          "nome": "Latex",
+          "total": 3
+        },
+        {
+          "nome": "Object Oriented Programming",
+          "total": 3
+        },
+        {
+          "nome": "IDE とエディター",
+          "total": 3
+        },
+        {
+          "nome": "Парадигмы программирования",
+          "total": 3
+        },
+        {
+          "nome": "مهندسی نرم‌افزار",
+          "total": 3
+        },
+        {
+          "nome": "並列プログラミング",
+          "total": 3
+        },
+        {
+          "nome": "オープンソースエコシステム",
+          "total": 3
+        },
+        {
+          "nome": "设计模式",
+          "total": 3
+        },
+        {
+          "nome": "编程艺术",
+          "total": 3
+        },
+        {
+          "nome": "正規表現",
+          "total": 2
+        },
+        {
+          "nome": "Lego Mindstorms",
+          "total": 2
+        },
+        {
+          "nome": "App Inventor",
+          "total": 2
+        },
+        {
+          "nome": "Logo",
+          "total": 2
+        },
+        {
+          "nome": "Action Script",
+          "total": 2
+        },
+        {
+          "nome": "Pédagogie pour les enfants et adolescents",
+          "total": 2
+        },
+        {
+          "nome": "Agda",
+          "total": 2
+        },
+        {
+          "nome": "AutoHotkey",
+          "total": 2
+        },
+        {
+          "nome": "C/C++",
+          "total": 2
+        },
+        {
+          "nome": "AppleScript",
+          "total": 2
+        },
+        {
+          "nome": "Bezpečnost",
+          "total": 2
+        },
+        {
+          "nome": "BeanShell",
+          "total": 2
+        },
+        {
+          "nome": "RSpec",
+          "total": 2
+        },
+        {
+          "nome": "Codename One",
+          "total": 2
+        },
+        {
+          "nome": "Component Pascal",
+          "total": 2
+        },
+        {
+          "nome": "Makefile",
+          "total": 2
+        },
+        {
+          "nome": "Isabelle/HOL",
+          "total": 2
+        },
+        {
+          "nome": "Crystal",
+          "total": 2
+        },
+        {
+          "nome": "Ensamblador",
+          "total": 2
+        },
+        {
+          "nome": "Matematika",
+          "total": 2
+        },
+        {
+          "nome": "コンテナ",
+          "total": 2
+        },
+        {
+          "nome": "Ecto",
+          "total": 2
+        },
+        {
+          "nome": ".NET (C# / Visual Studio)",
+          "total": 2
+        },
+        {
+          "nome": "Play Scala",
+          "total": 2
+        },
+        {
+          "nome": "Livecode",
+          "total": 2
+        },
+        {
+          "nome": "Hibernate",
+          "total": 2
+        },
+        {
+          "nome": "DTrace",
+          "total": 2
+        },
+        {
+          "nome": "Limbo",
+          "total": 2
+        },
+        {
+          "nome": "Octave",
+          "total": 2
+        },
+        {
+          "nome": "Работа с сетью",
+          "total": 2
+        },
+        {
+          "nome": "JDBC",
+          "total": 2
+        },
+        {
+          "nome": "JUnit",
+          "total": 2
+        },
+        {
+          "nome": "IDE et éditeurs de texte",
+          "total": 2
+        },
+        {
+          "nome": "Operačné systémy",
+          "total": 2
+        },
+        {
+          "nome": "Pemrograman Kompetitif",
+          "total": 2
+        },
+        {
+          "nome": "PicoLisp",
+          "total": 2
+        },
+        {
+          "nome": "PyOpenCl",
+          "total": 2
+        },
+        {
+          "nome": "QML",
+          "total": 2
+        },
+        {
+          "nome": "TEI",
+          "total": 2
+        },
+        {
+          "nome": "Tcl",
+          "total": 2
+        },
+        {
+          "nome": "Metapost",
+          "total": 2
+        },
+        {
+          "nome": "Экосистема открытого исходного кода",
+          "total": 2
+        },
+        {
+          "nome": "Облачные вычисления",
+          "total": 2
+        },
+        {
+          "nome": "ソフトウェアアーキテクチャ",
+          "total": 2
+        },
+        {
+          "nome": "ガベージコレクション",
+          "total": 2
+        },
+        {
+          "nome": "大数据",
+          "total": 2
+        },
+        {
+          "nome": "正则表达式",
+          "total": 2
+        },
+        {
+          "nome": "软件开发方法",
+          "total": 2
+        },
+        {
+          "nome": "编译原理",
+          "total": 1
+        },
+        {
+          "nome": "Problem Sets",
+          "total": 1
+        },
+        {
+          "nome": "Eiffel",
+          "total": 1
+        },
+        {
+          "nome": "Alef",
+          "total": 1
+        },
+        {
+          "nome": "Mathématiques",
+          "total": 1
+        },
+        {
+          "nome": "Algorismes i Estructures de Dades",
+          "total": 1
+        },
+        {
+          "nome": "Asymptote",
+          "total": 1
+        },
+        {
+          "nome": "ML",
+          "total": 1
+        },
+        {
+          "nome": "AutoIt",
+          "total": 1
+        },
+        {
+          "nome": "Carbon",
+          "total": 1
+        },
+        {
+          "nome": "Cool",
+          "total": 1
+        },
+        {
+          "nome": "Học máy",
+          "total": 1
+        },
+        {
+          "nome": "Delphi",
+          "total": 1
+        },
+        {
+          "nome": "Yapay Zeka",
+          "total": 1
+        },
+        {
+          "nome": "EasyMock",
+          "total": 1
+        },
+        {
+          "nome": "Elastic",
+          "total": 1
+        },
+        {
+          "nome": "Lean",
+          "total": 1
+        },
+        {
+          "nome": "Tizen",
+          "total": 1
+        },
+        {
+          "nome": "Hack",
+          "total": 1
+        },
+        {
+          "nome": "Sítě",
+          "total": 1
+        },
+        {
+          "nome": "Swing UI",
+          "total": 1
+        },
+        {
+          "nome": "Kivy",
+          "total": 1
+        },
+        {
+          "nome": "KOMA-Script",
+          "total": 1
+        },
+        {
+          "nome": "0 - Méta-listes",
+          "total": 1
+        },
+        {
+          "nome": "REBOL",
+          "total": 1
+        },
+        {
+          "nome": "Tornado",
+          "total": 1
+        },
+        {
+          "nome": "计算机图形学",
+          "total": 1
+        },
+        {
+          "nome": "Ciències de la Computació",
+          "total": 1
+        },
+        {
+          "nome": "Všeobecné programovanie",
+          "total": 1
+        },
+        {
+          "nome": "LaTex",
+          "total": 1
+        },
+        {
+          "nome": "Modelica",
+          "total": 1
+        },
+        {
+          "nome": "NumPy",
+          "total": 1
+        },
+        {
+          "nome": "Wicket",
+          "total": 1
+        },
+        {
+          "nome": "Open source",
+          "total": 1
+        },
+        {
+          "nome": "OpenSCAD",
+          "total": 1
+        },
+        {
+          "nome": "Odin",
+          "total": 1
+        },
+        {
+          "nome": "Güvenlik ve Gizlilik",
+          "total": 1
+        },
+        {
+          "nome": "Assembleur",
+          "total": 1
+        },
+        {
+          "nome": "Pemrograman Fungsional",
+          "total": 1
+        },
+        {
+          "nome": "Perl 6 / Raku",
+          "total": 1
+        },
+        {
+          "nome": "Gremlin",
+          "total": 1
+        },
+        {
+          "nome": "Sistemi",
+          "total": 1
+        },
+        {
+          "nome": "SPIP",
+          "total": 1
+        },
+        {
+          "nome": "OpenResty",
+          "total": 1
+        },
+        {
+          "nome": "PureScript",
+          "total": 1
+        },
+        {
+          "nome": "Pycharm",
+          "total": 1
+        },
+        {
+          "nome": "Firefox OS",
+          "total": 1
+        },
+        {
+          "nome": "Pyramid",
+          "total": 1
+        },
+        {
+          "nome": "Regulární výrazy",
+          "total": 1
+        },
+        {
+          "nome": "reStructuredText",
+          "total": 1
+        },
+        {
+          "nome": "Sather",
+          "total": 1
+        },
+        {
+          "nome": "sed",
+          "total": 1
+        },
+        {
+          "nome": "Sinatra",
+          "total": 1
+        },
+        {
+          "nome": "Snap",
+          "total": 1
+        },
+        {
+          "nome": "Splunk",
+          "total": 1
+        },
+        {
+          "nome": "Symbian",
+          "total": 1
+        },
+        {
+          "nome": "Tcl/Tk",
+          "total": 1
+        },
+        {
+          "nome": "Teradata",
+          "total": 1
+        },
+        {
+          "nome": "Архитектура приложений",
+          "total": 1
+        },
+        {
+          "nome": "Icon",
+          "total": 1
+        },
+        {
+          "nome": "Java Reporting",
+          "total": 1
+        },
+        {
+          "nome": "Mercury",
+          "total": 1
+        },
+        {
+          "nome": "Self",
+          "total": 1
+        },
+        {
+          "nome": "NewSQL",
+          "total": 1
+        },
+        {
+          "nome": "PGF/TikZ",
+          "total": 1
+        },
+        {
+          "nome": "TrueOS",
+          "total": 1
+        },
+        {
+          "nome": "V",
+          "total": 1
+        },
+        {
+          "nome": "Vapor",
+          "total": 1
+        },
+        {
+          "nome": "Web2py",
+          "total": 1
+        },
+        {
+          "nome": "Webdesign",
+          "total": 1
+        },
+        {
+          "nome": "Ezhil",
+          "total": 1
+        },
+        {
+          "nome": "XML",
+          "total": 1
+        },
+        {
+          "nome": "YAML",
+          "total": 1
+        },
+        {
+          "nome": "Matlab",
+          "total": 1
+        },
+        {
+          "nome": "Language Agnostic",
+          "total": 1
+        },
+        {
+          "nome": "Управление конфигурациями",
+          "total": 1
+        },
+        {
+          "nome": "Производительность",
+          "total": 1
+        },
+        {
+          "nome": "ClojureScript",
+          "total": 1
+        },
+        {
+          "nome": "C and C++",
+          "total": 1
+        },
+        {
+          "nome": "MetaPost",
+          "total": 1
+        },
+        {
+          "nome": "Jupyter Notebook",
+          "total": 1
+        },
+        {
+          "nome": "C#&lrm;",
+          "total": 1
+        },
+        {
+          "nome": "מערכות הפעלה",
+          "total": 1
+        },
+        {
+          "nome": "Deep-Learning",
+          "total": 1
+        },
+        {
+          "nome": "רשתות",
+          "total": 1
+        },
+        {
+          "nome": "Open Source Software",
+          "total": 1
+        },
+        {
+          "nome": "رایانش ابری",
+          "total": 1
+        },
+        {
+          "nome": "شبکه",
+          "total": 1
+        },
+        {
+          "nome": "Introduction to Programming in Arabic",
+          "total": 1
+        },
+        {
+          "nome": "Selenium",
+          "total": 1
+        },
+        {
+          "nome": "AR VR MR",
+          "total": 1
+        },
+        {
+          "nome": "Unicode",
+          "total": 1
+        },
+        {
+          "nome": "智能系统",
+          "total": 1
+        },
+        {
+          "nome": "函数式概念",
+          "total": 1
+        },
+        {
+          "nome": "ソフトウェア開発方法論",
+          "total": 1
+        },
+        {
+          "nome": "程序员杂谈",
+          "total": 1
+        },
+        {
+          "nome": "VBA (Microsoft Visual Basic Applications)",
+          "total": 1
+        },
+        {
+          "nome": "理論計算機科学",
+          "total": 1
+        },
+        {
+          "nome": "分布式系统",
+          "total": 1
+        }
+      ]
+    }
+  ]
+}
