@@ -1,12 +1,17 @@
 {
   "meta": {
-    "geradoEm": "2026-10-30T23:07:36.880Z",
-    "total": 4681,
+    "geradoEm": "2026-10-30T23:22:11.543Z",
+    "total": 5080,
     "fontes": [
       {
         "nome": "free-programming-books (EbookFoundation)",
         "url": "https://github.com/EbookFoundation/free-programming-books",
         "licenca": "CC BY 4.0"
+      },
+      {
+        "nome": "OpenAlex",
+        "url": "https://openalex.org",
+        "licenca": "CC0"
       }
     ]
   },
@@ -16,22 +21,27 @@
       "nome": "Inteligência Artificial & Dados",
       "cdd": "006.3",
       "descricao": "IA, aprendizado de máquina, ciência de dados, visão computacional, PLN e engenharia de prompts.",
-      "total": 202,
+      "total": 295,
       "tipos": {
-        "livro": 202
+        "livro": 260,
+        "dossie": 35
       },
       "ramos": [
+        {
+          "nome": "Artificial Intelligence",
+          "total": 102
+        },
         {
           "nome": "Machine Learning",
           "total": 66
         },
         {
-          "nome": "Artificial Intelligence",
-          "total": 34
-        },
-        {
           "nome": "Data Science",
           "total": 24
+        },
+        {
+          "nome": "Computer Vision and Pattern Recognition",
+          "total": 17
         },
         {
           "nome": "Python",
@@ -51,6 +61,10 @@
         },
         {
           "nome": "Computer Vision",
+          "total": 6
+        },
+        {
+          "nome": "Information Systems",
           "total": 6
         },
         {
@@ -75,6 +89,10 @@
         },
         {
           "nome": "Java",
+          "total": 2
+        },
+        {
+          "nome": "Computational Theory and Mathematics",
           "total": 2
         },
         {
@@ -128,18 +146,35 @@
       "nome": "Segurança & Privacidade",
       "cdd": "005.8",
       "descricao": "Segurança da informação, criptografia, pentest, engenharia reversa e privacidade.",
-      "total": 43,
+      "total": 112,
       "tipos": {
-        "livro": 43
+        "dossie": 60,
+        "livro": 52
       },
       "ramos": [
+        {
+          "nome": "Artificial Intelligence",
+          "total": 36
+        },
         {
           "nome": "Security & Privacy",
           "total": 26
         },
         {
+          "nome": "Information Systems",
+          "total": 19
+        },
+        {
+          "nome": "Computer Networks and Communications",
+          "total": 11
+        },
+        {
           "nome": "Reverse Engineering",
           "total": 4
+        },
+        {
+          "nome": "Signal Processing",
+          "total": 3
         },
         {
           "nome": ".NET Framework",
@@ -192,9 +227,10 @@
       "nome": "Fronteiras: Quântica & Blockchain",
       "cdd": "006.9",
       "descricao": "Computação quântica, blockchain, criptoativos e contratos inteligentes.",
-      "total": 26,
+      "total": 29,
       "tipos": {
-        "livro": 26
+        "livro": 27,
+        "dossie": 2
       },
       "ramos": [
         {
@@ -210,8 +246,16 @@
           "total": 3
         },
         {
+          "nome": "Artificial Intelligence",
+          "total": 2
+        },
+        {
           "nome": "Chaîne de blocs / Blockchain",
           "total": 2
+        },
+        {
+          "nome": "Information Systems",
+          "total": 1
         },
         {
           "nome": "Q#",
@@ -344,9 +388,10 @@
       "nome": "Nuvem, DevOps & Ferramentas",
       "cdd": "004.67",
       "descricao": "Computação em nuvem, contêineres, CI/CD, controle de versão e automação.",
-      "total": 178,
+      "total": 181,
       "tipos": {
-        "livro": 178
+        "livro": 178,
+        "dossie": 3
       },
       "ramos": [
         {
@@ -387,6 +432,10 @@
         },
         {
           "nome": "CMake",
+          "total": 3
+        },
+        {
+          "nome": "Information Systems",
           "total": 3
         },
         {
@@ -436,11 +485,16 @@
       "nome": "Redes & Internet",
       "cdd": "004.6",
       "descricao": "Protocolos, TCP/IP, redes de computadores, sistemas distribuídos e serviços web.",
-      "total": 30,
+      "total": 95,
       "tipos": {
-        "livro": 30
+        "dossie": 52,
+        "livro": 43
       },
       "ramos": [
+        {
+          "nome": "Computer Networks and Communications",
+          "total": 63
+        },
         {
           "nome": "Networking",
           "total": 24
@@ -448,6 +502,10 @@
         {
           "nome": "GraphQL",
           "total": 4
+        },
+        {
+          "nome": "Artificial Intelligence",
+          "total": 2
         },
         {
           "nome": "Web Services",
@@ -460,9 +518,10 @@
       "nome": "Web & Mobile",
       "cdd": "006.76",
       "descricao": "Front-end, back-end web, frameworks JavaScript, Android, iOS e desempenho web.",
-      "total": 890,
+      "total": 902,
       "tipos": {
-        "livro": 890
+        "livro": 894,
+        "dossie": 8
       },
       "ramos": [
         {
@@ -610,6 +669,14 @@
           "total": 4
         },
         {
+          "nome": "Artificial Intelligence",
+          "total": 4
+        },
+        {
+          "nome": "Information Systems",
+          "total": 4
+        },
+        {
           "nome": "WEB服务器",
           "total": 3
         },
@@ -623,6 +690,10 @@
         },
         {
           "nome": "CakePHP",
+          "total": 3
+        },
+        {
+          "nome": "Computer Vision and Pattern Recognition",
           "total": 3
         },
         {
@@ -671,6 +742,10 @@
         },
         {
           "nome": "Hydrogen",
+          "total": 1
+        },
+        {
+          "nome": "Computer Science Applications",
           "total": 1
         },
         {
@@ -748,9 +823,10 @@
       "nome": "Jogos & Computação Gráfica",
       "cdd": "794.8",
       "descricao": "Desenvolvimento de jogos, renderização, OpenGL, Vulkan, interfaces gráficas e multimídia.",
-      "total": 83,
+      "total": 90,
       "tipos": {
-        "livro": 83
+        "livro": 89,
+        "dossie": 1
       },
       "ramos": [
         {
@@ -764,6 +840,10 @@
         {
           "nome": "Python",
           "total": 10
+        },
+        {
+          "nome": "Computer Graphics and Computer-Aided Design",
+          "total": 7
         },
         {
           "nome": "Graphical User Interfaces",
@@ -844,9 +924,10 @@
       "nome": "Hardware, Embarcados & IoT",
       "cdd": "621.39",
       "descricao": "Sistemas embarcados, microcontroladores, Arduino, Raspberry Pi, FPGA e Internet das Coisas.",
-      "total": 50,
+      "total": 56,
       "tipos": {
-        "livro": 50
+        "livro": 52,
+        "dossie": 4
       },
       "ramos": [
         {
@@ -870,7 +951,15 @@
           "total": 4
         },
         {
+          "nome": "Hardware and Architecture",
+          "total": 3
+        },
+        {
           "nome": "Internet das Coisas",
+          "total": 2
+        },
+        {
+          "nome": "Artificial Intelligence",
           "total": 2
         },
         {
@@ -880,6 +969,10 @@
         {
           "nome": "IoT",
           "total": 2
+        },
+        {
+          "nome": "Computer Networks and Communications",
+          "total": 1
         },
         {
           "nome": "IoT (internet of things)",
@@ -908,9 +1001,10 @@
       "nome": "Sistemas Operacionais & Arquitetura",
       "cdd": "004.2",
       "descricao": "Sistemas operacionais, Linux/Unix, arquitetura de computadores, compiladores, programação paralela e de baixo nível.",
-      "total": 281,
+      "total": 286,
       "tipos": {
-        "livro": 281
+        "livro": 282,
+        "dossie": 4
       },
       "ramos": [
         {
@@ -966,6 +1060,10 @@
           "total": 5
         },
         {
+          "nome": "Hardware and Architecture",
+          "total": 5
+        },
+        {
           "nome": "Distribuce",
           "total": 5
         },
@@ -1016,9 +1114,10 @@
       "nome": "Engenharia & Arquitetura de Software",
       "cdd": "005.1",
       "descricao": "Arquitetura, padrões de projeto, métodos ágeis, testes, carreira, licenças e ecossistema open source.",
-      "total": 111,
+      "total": 122,
       "tipos": {
-        "livro": 111
+        "livro": 119,
+        "dossie": 3
       },
       "ramos": [
         {
@@ -1032,6 +1131,14 @@
         {
           "nome": "Professional Development",
           "total": 12
+        },
+        {
+          "nome": "Information Systems",
+          "total": 6
+        },
+        {
+          "nome": "Software",
+          "total": 5
         },
         {
           "nome": "Metodologías de desarrollo de software",
@@ -1084,9 +1191,10 @@
       "nome": "Fundamentos & Teoria da Computação",
       "cdd": "004.01",
       "descricao": "Algoritmos, estruturas de dados, teoria da computação, matemática e programação competitiva.",
-      "total": 261,
+      "total": 354,
       "tipos": {
-        "livro": 261
+        "livro": 332,
+        "dossie": 22
       },
       "ramos": [
         {
@@ -1094,8 +1202,16 @@
           "total": 87
         },
         {
+          "nome": "Computational Theory and Mathematics",
+          "total": 47
+        },
+        {
           "nome": "Algorithms & Data Structures",
           "total": 43
+        },
+        {
+          "nome": "Artificial Intelligence",
+          "total": 31
         },
         {
           "nome": "Algebra",
@@ -1104,6 +1220,10 @@
         {
           "nome": "Calculus",
           "total": 17
+        },
+        {
+          "nome": "Computer Science Applications",
+          "total": 15
         },
         {
           "nome": "Computer Science",
@@ -1188,9 +1308,10 @@
       "nome": "Programação & Linguagens",
       "cdd": "005.13",
       "descricao": "Linguagens de programação, paradigmas, orientação a objetos e programação em geral.",
-      "total": 2338,
+      "total": 2370,
       "tipos": {
-        "livro": 2338
+        "livro": 2364,
+        "dossie": 6
       },
       "ramos": [
         {
@@ -1256,6 +1377,10 @@
         {
           "nome": "Lisp",
           "total": 37
+        },
+        {
+          "nome": "Information Systems",
+          "total": 23
         },
         {
           "nome": "Prolog",
@@ -1434,6 +1559,10 @@
           "total": 6
         },
         {
+          "nome": "Human-Computer Interaction",
+          "total": 6
+        },
+        {
           "nome": "Dart",
           "total": 6
         },
@@ -1575,6 +1704,10 @@
         },
         {
           "nome": "Oberon",
+          "total": 3
+        },
+        {
+          "nome": "Signal Processing",
           "total": 3
         },
         {
