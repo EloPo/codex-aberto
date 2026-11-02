@@ -1,7 +1,7 @@
 {
   "meta": {
-    "geradoEm": "2026-10-30T23:22:11.543Z",
-    "total": 5080,
+    "geradoEm": "2026-11-02T16:08:17.407Z",
+    "total": 5085,
     "fontes": [
       {
         "nome": "free-programming-books (EbookFoundation)",
@@ -21,15 +21,15 @@
       "nome": "Inteligência Artificial & Dados",
       "cdd": "006.3",
       "descricao": "IA, aprendizado de máquina, ciência de dados, visão computacional, PLN e engenharia de prompts.",
-      "total": 295,
+      "total": 296,
       "tipos": {
-        "livro": 260,
+        "livro": 261,
         "dossie": 35
       },
       "ramos": [
         {
           "nome": "Artificial Intelligence",
-          "total": 102
+          "total": 103
         },
         {
           "nome": "Machine Learning",
@@ -268,9 +268,9 @@
       "nome": "Bancos de Dados",
       "cdd": "005.74",
       "descricao": "Modelagem, SQL, NoSQL e sistemas gerenciadores de bancos de dados.",
-      "total": 188,
+      "total": 189,
       "tipos": {
-        "livro": 188
+        "livro": 189
       },
       "ramos": [
         {
@@ -290,11 +290,11 @@
           "total": 19
         },
         {
-          "nome": "MySQL",
-          "total": 14
+          "nome": "Database",
+          "total": 15
         },
         {
-          "nome": "Database",
+          "nome": "MySQL",
           "total": 14
         },
         {
@@ -485,10 +485,10 @@
       "nome": "Redes & Internet",
       "cdd": "004.6",
       "descricao": "Protocolos, TCP/IP, redes de computadores, sistemas distribuídos e serviços web.",
-      "total": 95,
+      "total": 96,
       "tipos": {
         "dossie": 52,
-        "livro": 43
+        "livro": 44
       },
       "ramos": [
         {
@@ -497,7 +497,7 @@
         },
         {
           "nome": "Networking",
-          "total": 24
+          "total": 25
         },
         {
           "nome": "GraphQL",
@@ -1001,9 +1001,9 @@
       "nome": "Sistemas Operacionais & Arquitetura",
       "cdd": "004.2",
       "descricao": "Sistemas operacionais, Linux/Unix, arquitetura de computadores, compiladores, programação paralela e de baixo nível.",
-      "total": 286,
+      "total": 288,
       "tipos": {
-        "livro": 282,
+        "livro": 284,
         "dossie": 4
       },
       "ramos": [
@@ -1024,16 +1024,16 @@
           "total": 22
         },
         {
+          "nome": "Operating Systems",
+          "total": 20
+        },
+        {
           "nome": "Assembly Language",
           "total": 19
         },
         {
-          "nome": "Operating Systems",
-          "total": 19
-        },
-        {
           "nome": "Compiler Design",
-          "total": 15
+          "total": 16
         },
         {
           "nome": "Assembly",
